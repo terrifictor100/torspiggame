@@ -75,6 +75,7 @@ function init(){
 	scores = [0, 0];
 	currentScore = 0;
 	activePlayer = 0;
+	gamePlayine = true;
 
 	document.querySelector('.dice').style.display = 'none';
 	document.querySelector('.current-0-score').textContent = '0';
